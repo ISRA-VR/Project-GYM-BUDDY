@@ -1,0 +1,14 @@
+.env.env
+
+/vendor//vendor/
+
+/node_modules//node_modules/
+
+/storage//storage/logs/
+
+/.idea//.idea/
+
+/.vscode//.vscode/
+
+/.DS_Store/.DS_Store
+

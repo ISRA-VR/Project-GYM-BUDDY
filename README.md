@@ -1,4 +1,3 @@
-# Project-GYM-BUDDY
-GYM BUDDY 2.1 🏋️‍♂️ <br>
-La remodelacion, el avanze, la continuidad de un proyecto abandonado <br>
+GYM BUDDY 2.1 🏋️‍♂️
+La remodelacion, el avanze, la continuidad de un proyecto abandonado
 ¿Quieres participar? Contactame 🤓
