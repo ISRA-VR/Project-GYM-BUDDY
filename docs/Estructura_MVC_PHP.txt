@@ -1,0 +1,33 @@
+Estructura de carpetas (MVC en PHP)
+
+📁 app/ Contiene todo el código del sistema (MVC).
+
+📁 app/config/ Archivos de configuración como: - config.php
+(configuración general) - database.php (credenciales de DB: host, user,
+password, dbname)
+
+📁 app/database/ Archivos relacionados con la conexión o scripts SQL.
+Ejemplos: - Database.php (clase para conexión con PDO) - migrations.sql
+(script para crear tablas)
+
+📁 app/Controllers/ Controladores: reciben las peticiones y deciden qué
+hacer. Ejemplos: - HomeController.php - UserController.php -
+AuthController.php
+
+📁 app/Models/ Modelos: interactúan con la base de datos. Ejemplos: -
+User.php - Product.php
+
+📁 app/Views/ Vistas: contienen código HTML y muestran datos al usuario.
+Ejemplos: - home.php - login.php - header.php - footer.php
+
+📁 app/public/ Carpeta accesible desde el navegador. Debe contener: -
+index.php (punto de entrada de la app) - assets/ (css, js, imágenes)
+
+📁 docs/ Documentación del proyecto: - anotaciones.txt - manual.pdf -
+MVC.txt
+
+📄 .gitignore Aquí se colocan los archivos que NO deben subirse a
+Github, por ejemplo: .env migrations.sql node_modules/ vendor/
+
+📄 README.md Instrucciones del proyecto: - qué es el proyecto - cómo
+instalarlo - cómo ejecutarlo
