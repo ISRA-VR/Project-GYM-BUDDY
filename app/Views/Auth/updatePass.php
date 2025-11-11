@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fit Partner - Login</title>
+    <title>Fit Partner - Recuperar Contraseña</title>
     <link rel="stylesheet" href="../../public/assets/css/auth.css">
     <link rel="stylesheet" href="../../public/assets/css/escabezadoPie.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -22,8 +22,8 @@
         <div class="card glass">
             <img src="../../public/assets/img/logos/logogym.png" alt="Fit Partner" class="logo">
 
-            <h2>Bienvenido usuario</h2>
-            <p class="subtitle">Entrena mejor, alcanza más.</p>
+            <h2>Recupera tu contraseña</h2>
+            <p class="subtitle">Cambia tu cuerpo.</p>
 
             <form>
                 <div class="input-box">
@@ -31,16 +31,10 @@
                     <label>Correo electrónico</label>
                 </div>
 
-                <div class="input-box">
-                    <input type="password" id="password" required>
-                    <label>Contraseña</label>
-                    <i class="bi bi-eye toggle-password" data-target="password"></i>
-                </div>
+                <button class="btn"><span>Enviar codigo</span></button>
 
-                <button class="btn"><span>Iniciar Sesión</span></button>
+                <p class="switch">Volver al login<a href="login.php"> Regresar</a></p>
 
-                <p class="switch">¿Olvidaste tu contraseña? <a href="updatePass.php">Recuperala</a></p>
-                <p class="switch">¿No tienes cuenta? <a href="register.php">Regístrate</a></p>
             </form>
         </div>
     </div>
@@ -54,7 +48,6 @@
             <a href="#"><i class="bi bi-twitter-x"></i></a>
         </div>
     </footer>
-
 
     <script src="../../public/assets/js/script.js"></script>
 
